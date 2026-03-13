@@ -15,7 +15,7 @@ A Simple Tracking API to register and check activity events. Basically is used t
 `go run cmd/server/main.go` to start the **api** /
 `GET http://localhost:8080/events`
  
-```json
+```bash
 curl -X POST http://localhost:8080/track \
 -H "Content-Type: application/json" \
 -d '{
